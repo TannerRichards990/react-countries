@@ -1,0 +1,8 @@
+.countries {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 25px;
+  align-items: center;
+  justify-items: center;
+}
+
