@@ -1,14 +1,8 @@
 import './Filter.css';
 
-export default function Filter({ search, setSearch, type, setType }) {
+export default function Filter({ type, setType }) {
   return (
     <div className="filter">
-      <input
-        type="text"
-        placeholder="Search for a country..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
       <select
         value={type}
         onChange={(e) => setType(e.target.value)}

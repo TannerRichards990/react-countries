@@ -5,8 +5,7 @@ import Filter from '../Filter/Filter';
 import './Main.css';
 
 export default function Main() {
-  const { filterCountries, type, setType } = useCountries();
-
+  const { filterCountries, type, setType, } = useCountries();
   return (
     <div className="main">
       <Filter type={type} setType={setType} />
